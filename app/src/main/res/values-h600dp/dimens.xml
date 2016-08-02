@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">48sp</dimen>
+    <dimen name="textSizeMedium">32sp</dimen>
+    <dimen name="editTextSize">64sp</dimen>
+    <dimen name="menuButtonHeight">74dp</dimen>
+</resources>

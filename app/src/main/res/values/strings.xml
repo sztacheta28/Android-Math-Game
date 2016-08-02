@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FixMath</string>
+    <string name="play">NOWA GRA</string>
+    <string name="exit">WYJDŹ</string>
+    <string name="check">Sprawdź</string>
+    <string name="best_score">Najlepszy wynik</string>
+    <string name="current_score">Aktualny wynik</string>
+    <string name="level">POZIOM</string>
+</resources>

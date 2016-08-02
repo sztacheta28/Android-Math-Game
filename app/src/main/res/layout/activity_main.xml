@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.edu.uksw.fixmath.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bestScores"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/scores"
+        android:gravity="center"
+        android:layout_below="@id/bestScores"
+        android:textSize="@dimen/textSize"/>
+
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_centerHorizontal="true"
+        android:onClick="loadGameplayActivity"
+        android:id="@+id/playBtn"
+        android:layout_below="@id/scores"
+        android:textSize="@dimen/textSize"/>-->
+
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/playBtn"
+        android:layout_height="@dimen/menuButtonHeight"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize"
+        android:layout_centerHorizontal="true"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"
+        android:layout_below="@id/scores"
+        android:layout_margin="10dp"/>
+
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:layout_centerHorizontal="true"
+        android:onClick="exitGame"
+        android:id="@+id/exitBtn"
+        android:layout_below="@id/playBtn"
+        android:textSize="@dimen/textSize"/>-->
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/exitBtn"
+        android:layout_height="@dimen/menuButtonHeight"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize"
+        android:layout_centerHorizontal="true"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"
+        android:layout_below="@id/playBtn"/>
+
+</RelativeLayout>
