@@ -10,5 +10,5 @@ Gra polegająca na rozwiązywaniu układu równań. Każdemu kolorowi należy pr
 [Google Play](https://play.google.com/store/apps/details?id=pl.edu.uksw.fixmath)
 
 ## 4. Zrzuty ekranu
-![Screen1.png]()
-![Screen1.png]()
+![Screen1.png](https://lh3.googleusercontent.com/O6YSzLHAxweQtsRLSOjo4euCUwgDEtt56bux49DMbhP-EJR0TtCZt5aQI9Oemn9Suew=h900)
+![Screen1.png](https://lh3.googleusercontent.com/FSsLqXP2ZmpT8Jyiqgz9ryOeJ3G_L0GIZCihwxArgyV9JBt2-wP2lghvrWoADBXyYC8=h900)
